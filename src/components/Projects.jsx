@@ -33,12 +33,24 @@ const Projects = () => {
                                         </span>
                                     ))}
                                 </div>
-                                <a
-                                    href={project.link}
-                                    className="inline-block px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors font-medium text-lg"
-                                >
-                                    View Project
-                                </a>
+                                <div className="flex gap-4">
+                                    <a
+                                        href="https://pomo-timer-lilac.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors font-medium text-lg shadow-lg hover:shadow-green-500/30"
+                                    >
+                                        Live Demo
+                                    </a>
+                                    <a
+                                        href="https://github.com/hashimoten/pomo-timer"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block px-8 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors font-medium text-lg border border-gray-600"
+                                    >
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
