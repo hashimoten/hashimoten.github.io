@@ -13,12 +13,12 @@ const About = () => {
                     </div>
                     <div className="w-full md:w-2/3 text-gray-300 leading-relaxed">
                         <p className="mb-4">
-                            Hello! I'm a System Engineer with a passion for building robust and scalable applications.
+                            Hello! I'm a 30-year-old System Engineer with a passion for building robust and scalable applications.
                             My journey began with Java and Python, where I honed my skills in backend development and system architecture.
                         </p>
                         <p>
-                            Recently, I've been expanding my horizons into modern web development, exploring the React ecosystem
-                            and creating interactive user interfaces. I love solving complex problems and turning ideas into reality through code.
+                            Recently, I've been focusing on development using Generative AI (Windsurf, Antigravity) and exploring modern web technologies.
+                            I also have a keen interest in asset formation and real estate investment, applying analytical skills to financial growth.
                         </p>
                     </div>
                 </div>
