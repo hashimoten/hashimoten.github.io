@@ -1,17 +1,17 @@
 const Projects = () => {
     const projects = [
         {
-            title: "Pomodoro Timer",
-            description: "A customizable Pomodoro timer with sound notifications and session tracking.",
-            image: "https://placehold.co/600x400?text=Pomodoro+Timer",
-            tags: ["React", "Vite", "Web Audio API"],
+            title: "Japan Stock Manager",
+            description: "高配当株投資のための個人用管理ツール",
+            image: "https://placehold.co/600x400?text=Japan+Stock+Manager",
+            tags: ["React", "Tailwind CSS", "Chart.js"],
             link: "#"
         },
         {
-            title: "Stock Management App",
-            description: "A web application for managing Japanese stock portfolios with real-time updates.",
-            image: "https://placehold.co/600x400?text=Stock+App",
-            tags: ["React", "Tailwind CSS", "Chart.js"],
+            title: "Pomodoro Timer",
+            description: "生産性向上のためのタイマーアプリ",
+            image: "https://placehold.co/600x400?text=Pomodoro+Timer",
+            tags: ["React", "Vite", "Web Audio API"],
             link: "#"
         }
     ];
