@@ -1,9 +1,11 @@
+import pomodoroImg from '../assets/pomodoro-screenshot.png';
+
 const Projects = () => {
     const projects = [
         {
             title: "Pomodoro Timer",
             description: "生産性向上のためのタイマーアプリ。ReactとAIコーディングツールを活用して短期間で開発しました。",
-            image: "https://placehold.co/600x400?text=Pomodoro+Timer",
+            image: pomodoroImg,
             tags: ["React", "Vite", "Web Audio API"],
             link: "#"
         }
