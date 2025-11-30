@@ -34,7 +34,10 @@ const Contact = () => {
                 </form>
                 <div className="mt-12 pt-8 border-t border-gray-800">
                     <p className="text-gray-500">
-                        &copy; {new Date().getFullYear()} Taro. All rights reserved.
+                        &copy; {new Date().getFullYear()} hashimoten. All rights reserved.
+                    </p>
+                    <p className="text-gray-600 text-sm mt-2">
+                        Built with Google Antigravity
                     </p>
                 </div>
             </div>
